@@ -1,0 +1,20 @@
+{
+  "name": "stryker-mutation-badge",
+  "version": "1.0.0",
+  "description": "Creates a badge in `reports/mutation/badge/` which show the resulting score and adapts it's color to it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christoph Gross <gross@gross-it.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@stryker-mutator/api": "^3.3.1",
+    "mutation-testing-metrics": "^1.4.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/cgrossde/stryker-mutation-badge.git"
+  }
+}
